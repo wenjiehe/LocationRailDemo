@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D9278A525998BC100DB34F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278A425998BC100DB34F8 /* AppDelegate.m */; };
+		3D9278A825998BC100DB34F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278A725998BC100DB34F8 /* SceneDelegate.m */; };
+		3D9278AB25998BC100DB34F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278AA25998BC100DB34F8 /* ViewController.m */; };
+		3D9278AE25998BC100DB34F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9278AC25998BC100DB34F8 /* Main.storyboard */; };
+		3D9278B025998BC400DB34F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9278AF25998BC400DB34F8 /* Assets.xcassets */; };
+		3D9278B325998BC400DB34F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9278B125998BC400DB34F8 /* LaunchScreen.storyboard */; };
+		3D9278B625998BC400DB34F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278B525998BC400DB34F8 /* main.m */; };
+		3D9278C025998BC400DB34F8 /* LocationRailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278BF25998BC400DB34F8 /* LocationRailDemoTests.m */; };
+		3D9278CB25998BC400DB34F8 /* LocationRailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278CA25998BC400DB34F8 /* LocationRailDemoUITests.m */; };
+		3D9278DC25998C2300DB34F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D9278DB25998C2300DB34F8 /* README.md */; };
+		3D9278E62599DB8C00DB34F8 /* WJRegionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9278E52599DB8C00DB34F8 /* WJRegionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D9278BC25998BC400DB34F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D92789825998BC100DB34F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D92789F25998BC100DB34F8;
+			remoteInfo = LocationRailDemo;
+		};
+		3D9278C725998BC400DB34F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D92789825998BC100DB34F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D92789F25998BC100DB34F8;
+			remoteInfo = LocationRailDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D9278A025998BC100DB34F8 /* LocationRailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationRailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9278A325998BC100DB34F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D9278A425998BC100DB34F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D9278A625998BC100DB34F8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3D9278A725998BC100DB34F8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3D9278A925998BC100DB34F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D9278AA25998BC100DB34F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D9278AD25998BC100DB34F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D9278AF25998BC400DB34F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D9278B225998BC400DB34F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D9278B425998BC400DB34F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9278B525998BC400DB34F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D9278BB25998BC400DB34F8 /* LocationRailDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationRailDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9278BF25998BC400DB34F8 /* LocationRailDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationRailDemoTests.m; sourceTree = "<group>"; };
+		3D9278C125998BC400DB34F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9278C625998BC400DB34F8 /* LocationRailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationRailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9278CA25998BC400DB34F8 /* LocationRailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationRailDemoUITests.m; sourceTree = "<group>"; };
+		3D9278CC25998BC400DB34F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9278DB25998C2300DB34F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D9278E42599DB8C00DB34F8 /* WJRegionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJRegionManager.h; sourceTree = "<group>"; };
+		3D9278E52599DB8C00DB34F8 /* WJRegionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJRegionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D92789D25998BC100DB34F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278B825998BC400DB34F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278C325998BC400DB34F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D92789725998BC100DB34F8 = {
+			isa = PBXGroup;
+			children = (
+				3D9278A225998BC100DB34F8 /* LocationRailDemo */,
+				3D9278BE25998BC400DB34F8 /* LocationRailDemoTests */,
+				3D9278C925998BC400DB34F8 /* LocationRailDemoUITests */,
+				3D9278A125998BC100DB34F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D9278A125998BC100DB34F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D9278A025998BC100DB34F8 /* LocationRailDemo.app */,
+				3D9278BB25998BC400DB34F8 /* LocationRailDemoTests.xctest */,
+				3D9278C625998BC400DB34F8 /* LocationRailDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9278A225998BC100DB34F8 /* LocationRailDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D9278A325998BC100DB34F8 /* AppDelegate.h */,
+				3D9278A425998BC100DB34F8 /* AppDelegate.m */,
+				3D9278A625998BC100DB34F8 /* SceneDelegate.h */,
+				3D9278A725998BC100DB34F8 /* SceneDelegate.m */,
+				3D9278A925998BC100DB34F8 /* ViewController.h */,
+				3D9278AA25998BC100DB34F8 /* ViewController.m */,
+				3D9278AC25998BC100DB34F8 /* Main.storyboard */,
+				3D9278AF25998BC400DB34F8 /* Assets.xcassets */,
+				3D9278B125998BC400DB34F8 /* LaunchScreen.storyboard */,
+				3D9278B425998BC400DB34F8 /* Info.plist */,
+				3D9278B525998BC400DB34F8 /* main.m */,
+				3D9278DB25998C2300DB34F8 /* README.md */,
+				3D9278E42599DB8C00DB34F8 /* WJRegionManager.h */,
+				3D9278E52599DB8C00DB34F8 /* WJRegionManager.m */,
+			);
+			path = LocationRailDemo;
+			sourceTree = "<group>";
+		};
+		3D9278BE25998BC400DB34F8 /* LocationRailDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D9278BF25998BC400DB34F8 /* LocationRailDemoTests.m */,
+				3D9278C125998BC400DB34F8 /* Info.plist */,
+			);
+			path = LocationRailDemoTests;
+			sourceTree = "<group>";
+		};
+		3D9278C925998BC400DB34F8 /* LocationRailDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D9278CA25998BC400DB34F8 /* LocationRailDemoUITests.m */,
+				3D9278CC25998BC400DB34F8 /* Info.plist */,
+			);
+			path = LocationRailDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D92789F25998BC100DB34F8 /* LocationRailDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9278CF25998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemo" */;
+			buildPhases = (
+				3D92789C25998BC100DB34F8 /* Sources */,
+				3D92789D25998BC100DB34F8 /* Frameworks */,
+				3D92789E25998BC100DB34F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationRailDemo;
+			productName = LocationRailDemo;
+			productReference = 3D9278A025998BC100DB34F8 /* LocationRailDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D9278BA25998BC400DB34F8 /* LocationRailDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9278D225998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemoTests" */;
+			buildPhases = (
+				3D9278B725998BC400DB34F8 /* Sources */,
+				3D9278B825998BC400DB34F8 /* Frameworks */,
+				3D9278B925998BC400DB34F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9278BD25998BC400DB34F8 /* PBXTargetDependency */,
+			);
+			name = LocationRailDemoTests;
+			productName = LocationRailDemoTests;
+			productReference = 3D9278BB25998BC400DB34F8 /* LocationRailDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D9278C525998BC400DB34F8 /* LocationRailDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9278D525998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemoUITests" */;
+			buildPhases = (
+				3D9278C225998BC400DB34F8 /* Sources */,
+				3D9278C325998BC400DB34F8 /* Frameworks */,
+				3D9278C425998BC400DB34F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9278C825998BC400DB34F8 /* PBXTargetDependency */,
+			);
+			name = LocationRailDemoUITests;
+			productName = LocationRailDemoUITests;
+			productReference = 3D9278C625998BC400DB34F8 /* LocationRailDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D92789825998BC100DB34F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3D92789F25998BC100DB34F8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3D9278BA25998BC400DB34F8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D92789F25998BC100DB34F8;
+					};
+					3D9278C525998BC400DB34F8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D92789F25998BC100DB34F8;
+					};
+				};
+			};
+			buildConfigurationList = 3D92789B25998BC100DB34F8 /* Build configuration list for PBXProject "LocationRailDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D92789725998BC100DB34F8;
+			productRefGroup = 3D9278A125998BC100DB34F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D92789F25998BC100DB34F8 /* LocationRailDemo */,
+				3D9278BA25998BC400DB34F8 /* LocationRailDemoTests */,
+				3D9278C525998BC400DB34F8 /* LocationRailDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D92789E25998BC100DB34F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9278B325998BC400DB34F8 /* LaunchScreen.storyboard in Resources */,
+				3D9278B025998BC400DB34F8 /* Assets.xcassets in Resources */,
+				3D9278DC25998C2300DB34F8 /* README.md in Resources */,
+				3D9278AE25998BC100DB34F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278B925998BC400DB34F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278C425998BC400DB34F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D92789C25998BC100DB34F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9278E62599DB8C00DB34F8 /* WJRegionManager.m in Sources */,
+				3D9278AB25998BC100DB34F8 /* ViewController.m in Sources */,
+				3D9278A525998BC100DB34F8 /* AppDelegate.m in Sources */,
+				3D9278B625998BC400DB34F8 /* main.m in Sources */,
+				3D9278A825998BC100DB34F8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278B725998BC400DB34F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9278C025998BC400DB34F8 /* LocationRailDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9278C225998BC400DB34F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9278CB25998BC400DB34F8 /* LocationRailDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D9278BD25998BC400DB34F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D92789F25998BC100DB34F8 /* LocationRailDemo */;
+			targetProxy = 3D9278BC25998BC400DB34F8 /* PBXContainerItemProxy */;
+		};
+		3D9278C825998BC400DB34F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D92789F25998BC100DB34F8 /* LocationRailDemo */;
+			targetProxy = 3D9278C725998BC400DB34F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D9278AC25998BC100DB34F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9278AD25998BC100DB34F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9278B125998BC400DB34F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9278B225998BC400DB34F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D9278CD25998BC400DB34F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D9278CE25998BC400DB34F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D9278D025998BC400DB34F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
+				INFOPLIST_FILE = LocationRailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D9278D125998BC400DB34F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
+				INFOPLIST_FILE = LocationRailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D9278D325998BC400DB34F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationRailDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LocationRailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationRailDemo.app/LocationRailDemo";
+			};
+			name = Debug;
+		};
+		3D9278D425998BC400DB34F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationRailDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LocationRailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationRailDemo.app/LocationRailDemo";
+			};
+			name = Release;
+		};
+		3D9278D625998BC400DB34F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationRailDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LocationRailDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationRailDemo;
+			};
+			name = Debug;
+		};
+		3D9278D725998BC400DB34F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LocationRailDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LocationRailDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocationRailDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D92789B25998BC100DB34F8 /* Build configuration list for PBXProject "LocationRailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9278CD25998BC400DB34F8 /* Debug */,
+				3D9278CE25998BC400DB34F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9278CF25998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9278D025998BC400DB34F8 /* Debug */,
+				3D9278D125998BC400DB34F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9278D225998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9278D325998BC400DB34F8 /* Debug */,
+				3D9278D425998BC400DB34F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9278D525998BC400DB34F8 /* Build configuration list for PBXNativeTarget "LocationRailDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9278D625998BC400DB34F8 /* Debug */,
+				3D9278D725998BC400DB34F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D92789825998BC100DB34F8 /* Project object */;
+}
